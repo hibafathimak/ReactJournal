@@ -10,7 +10,7 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const user = { name, email, password, entries: [], reminders: [] };
+    const user = { name, email, password, entries: [], reminders: [] ,visionBoard: [] };
 
     try {
       const response = await registerAPI(user);

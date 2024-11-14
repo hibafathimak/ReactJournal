@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Header signup={true} />
-      <div style={{ minHeight: "100vh" }} className='text-light border-top rouned bg-primary '>
+      <div style={{ minHeight: "100vh" }} className='text-light  rouned bg-primary '>
         <section className=" h-100  w-100 ">
           <div className=" d-flex flex-column justify-content-center align-items-center text-center">
             <img src={img} alt="" />
